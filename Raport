@@ -1,0 +1,76 @@
+----- PIERWSZY ENDPOINT -----
+--------------------------------------------------------------------------------------------------
+
+Server Software:        uvicorn
+Server Hostname:        fastapi-123.herokuapp.com
+Document Path:          /prime
+
+Complete requests:      100
+Failed requests:        0
+Time taken for tests:   3.595 seconds
+
+
+Connection Times (ms)
+                   min  	mean 		[+/-sd] 		median   	max
+Connect:          148    	229     151.5    		178      	1192
+Processing:       48     	73       61.5     	53        371
+Waiting:          47      63       36.9      	52        371
+Total:            197    	301     161.9    		252       1244
+
+Percentage of the requests served within a certain time (ms)
+  50%    252
+  90%    514
+  99%   1244
+
+--------------------------------------------------------------------------------------------------
+----- DRUGI ENDPOINT ------
+--------------------------------------------------------------------------------------------------
+
+Server Software:        uvicorn
+Server Hostname:        fastapi-123.herokuapp.com
+Document Path:          /picture/invert
+
+Complete requests:      100
+Failed requests:        0
+Time taken for tests:   2.928 seconds
+
+
+Connection Times (ms)
+                    min  	 	mean  		[+/-sd] 		median   	max
+Connect:      	    149   	 	181      	64.6       	162      747
+Processing:   	    48      	75        71.1       	52       435
+Waiting:        	  47      	62        41.4       	51       426
+Total:            	201   		256       94.0     		223      796
+
+Percentage of the requests served within a certain time (ms)
+  50%    223
+  90%    309
+  99%    796
+  
+--------------------------------------------------------------------------------------------------
+----- TRZECI ENDPOINT ------
+--------------------------------------------------------------------------------------------------
+
+
+Server Software:        uvicorn
+Server Hostname:        fastapi-123.herokuapp.com
+Document Path:          /time
+
+Complete requests:      100
+Failed requests:        0
+Time taken for tests:   3.486 seconds
+
+
+Connection Times (ms)
+                    min 		mean 		 [+/-sd] 		median  		 max
+Connect:     	      153   	233     	144.6   		181      		1172
+Processing:    	    49     	72        60.8      	54       		365
+Waiting:         	  49     	59        15.9     		54        	121
+Total:             	203  		305      	152.3    		246    		  1222
+
+Percentage of the requests served within a certain time (ms)
+  50%    246
+  90%    549
+  99%   1222
+ 
+
