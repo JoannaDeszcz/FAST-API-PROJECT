@@ -15,7 +15,9 @@ app = FastAPI()
 #################################################################
 
 # PART 1
-
+"""
+Endpoint sprawdzający czy dana liczba jest pierwsza (zakres do 9223372036854775807). Nie zakładamy, że dane wejściowe są poprawne.
+"""
 numbers=range(0,9223372036854775808)
 
 @app.get("/prime/{number}")
@@ -38,6 +40,12 @@ async def is_prime(number):
 #################################################################
 
 # PART 2 
+"""
+Endpoint zwrcający inwersję kolorów obrazka. 
+Założenia:
+* typ JPG o max rozmiarze 12 MPix
+*dane wejściowe są poprawne
+"""
 
 def invert(img):
     inverted_image = PIL.ImageOps.invert(Image.open(io.BytesIO(img)))
@@ -52,11 +60,13 @@ async def invert_image(file: bytes = File(...)):
 
 #################################################################
 # PART 3
+"""
+Endpoint ze uwierzytelnianiem zwracający aktualną godzinę.
 
-#Authorize
-#username:joannadeszcz
-#password:informatyka
-
+Dane do autoryzacji:
+username:joannadeszcz
+password:informatyka
+"""
 fake_users_db = {
     "joannadeszcz": {
         "username": "joannadeszcz",
@@ -64,7 +74,6 @@ fake_users_db = {
     }
     
 }
-
 
 def fake_hash_password(password: str):
     return "fakehashed" + password
