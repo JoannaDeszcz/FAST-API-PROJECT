@@ -1,0 +1,36 @@
+PROJEKT:
+
+Część 1:
+
+1. Endpoint sprawdzający czy dana liczba jest pierwsza (zakres do 9223372036854775807). Nie zakładamy, że dane wejściowe są poprawne.
+
+2. Endpoint zwrcający inwersję kolorów obrazka. 
+	Założenia:
+	* typ JPG o max rozmiarze 12 MPix
+	*dane wejściowe są poprawne
+
+3. Endpoint ze uwierzytelnianiem zwracający aktualną godzinę.
+
+Dane do autoryzacji:
+username:joannadeszcz
+password:informatyka
+	
+Część 2:
+
+Deploy publiczny.
+link: https://fastapi-123.herokuapp.com/docs
+
+Niestety przez zawieszony dostep do heroku link wygasł.
+
+Część 3:
+1. Performance testy rozwiązania. Raport w postaci:
+- Endpoint
+- #requests
+- #fails
+- Median (ms)
+- Average (ms)
+- Min (ms)
+- Max (ms)
+- 50/90/99% tile
+
+
