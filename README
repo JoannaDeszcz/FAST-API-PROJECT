@@ -1,29 +1,29 @@
-PROJEKT:
+PROJECT:
 
-Część 1:
+Part 1:
 
-1. Endpoint sprawdzający czy dana liczba jest pierwsza (zakres do 9223372036854775807). Nie zakładamy, że dane wejściowe są poprawne.
+1. Endpoint that checks if a given number is prime (range up to 9223372036854775807). We do not assume that the input data is correct.
 
-2. Endpoint zwrcający inwersję kolorów obrazka. 
-	Założenia:
-	* typ JPG o max rozmiarze 12 MPix
-	*dane wejściowe są poprawne
+2. Endpoint that returns the color inversion of an image. 
+	Assumptions:
+	* JPG type with a maximum size of 12 MPix.
+	* input data are correct
 
-3. Endpoint ze uwierzytelnianiem zwracający aktualną godzinę.
+3. endpoint with authentication returning the current time.
 
-Dane do autoryzacji:
+Authentication data:
 username:joannadeszcz
-password:informatyka
+password:informatics
 	
-Część 2:
+Part 2:
 
-Deploy publiczny.
-link: https://fastapi-123.herokuapp.com/docs
+Deploy public.
+Link: https://fastapi-123.herokuapp.com/docs
 
-Niestety przez zawieszony dostep do heroku link wygasł.
+Unfortunately due to suspended access to heroku the link has expired.
 
-Część 3:
-1. Performance testy rozwiązania. Raport w postaci:
+Part 3:
+1. performance testing of the solution. Report as:
 - Endpoint
 - #requests
 - #fails
@@ -33,4 +33,4 @@ Część 3:
 - Max (ms)
 - 50/90/99% tile
 
-
+Translated with www.DeepL.com/Translator (free version)
