@@ -16,7 +16,7 @@ app = FastAPI()
 
 # PART 1
 """
-Endpoint sprawdzający czy dana liczba jest pierwsza (zakres do 9223372036854775807). Nie zakładamy, że dane wejściowe są poprawne.
+1. Endpoint that checks if a given number is prime (range up to 9223372036854775807). We do not assume that the input data is correct.
 """
 numbers=range(0,9223372036854775808)
 
@@ -41,10 +41,10 @@ async def is_prime(number):
 
 # PART 2 
 """
-Endpoint zwrcający inwersję kolorów obrazka. 
-Założenia:
-* typ JPG o max rozmiarze 12 MPix
-*dane wejściowe są poprawne
+Endpoint that returns the color inversion of an image. 
+	Assumptions:
+	* JPG type with a maximum size of 12 MPix.
+	* input data are correct
 """
 
 def invert(img):
@@ -61,11 +61,11 @@ async def invert_image(file: bytes = File(...)):
 #################################################################
 # PART 3
 """
-Endpoint ze uwierzytelnianiem zwracający aktualną godzinę.
+Endpoint with authentication returning the current time.
 
-Dane do autoryzacji:
+Authentication data:
 username:joannadeszcz
-password:informatyka
+password:informatics
 """
 fake_users_db = {
     "joannadeszcz": {
